@@ -1,20 +1,20 @@
 {
-    "name": "dan-da/coinparams-bitwasp-addon",
+    "name": "highbreedtech/coinparams-bitwasp-addon",
     "description": "These are addon classes to integrate bitwasp bitcoin-php with coinparams for multicoin functionality.",
 
     "type": "library",
-    "homepage": "https://github.com/dan-da/coinparams-bitwasp-addon",
+    "homepage": "https://github.com/HighBreedTech/coinparams-bitwasp-addon",
     "license": "Unlicense",
 
     "require": {
         "bitwasp/bitcoin": "^1.0",
-        "dan-da/coinparams": "0.2.6",
+        "dan-da/coinparams": "^0.2.6",
         "ext-json": "*",
         "php": ">=5.6"
     },
 
     "require-dev": {
-        "dan-da/tester-php": "1.0.4"
+        "dan-da/tester-php": "^1.0.4"
     },
 
     "autoload": {
